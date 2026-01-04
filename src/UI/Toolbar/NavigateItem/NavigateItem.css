@@ -1,0 +1,17 @@
+.nav-item > a{
+  cursor: pointer;
+  width: 135px;
+  display: inline-block;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 5px 15px;
+  color: #15082e;
+}
+
+.nav-item > a {
+  color: #15082e;
+}
+
+.nav-item:hover > a {
+  color: #fff;
+}

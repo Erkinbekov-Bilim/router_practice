@@ -1,3 +1,4 @@
+import './global.css';
 import './App.css';
 import Header from './components/Header/Header';
 import Home from './containers/EdwardSnowden/Home/Home';
@@ -13,7 +14,7 @@ const App = () => {
     <>
       <Header />
       <main className="main">
-        <div className='container'>
+        <div className="container">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/biography" element={<Biography />} />
