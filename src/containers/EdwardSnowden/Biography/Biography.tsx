@@ -1,7 +1,12 @@
 import React from 'react';
 import './Biography.css';
+import type { IEdwardSnowdenInfo } from '../../../types';
 
-const Biography = () => {
+interface IBiographyProps {
+  biography: IEdwardSnowdenInfo[];
+}
+
+const Biography: React.FC<IBiographyProps> = ({biography}) => {
   return <div></div>;
 };
 

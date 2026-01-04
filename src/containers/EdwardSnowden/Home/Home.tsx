@@ -1,8 +1,16 @@
-import React from 'react';
+import type { IEdwardSnowdenInfo } from '../../../types';
 import './Home.css';
 
-const Home = () => {
-  return <div></div>;
+interface IHomeProps {
+  overview: IEdwardSnowdenInfo[];
+}
+
+const Home: React.FC<IHomeProps> = ({ overview }) => {
+  return (
+    <>
+      <div></div>
+    </>
+  );
 };
 
 export default Home;

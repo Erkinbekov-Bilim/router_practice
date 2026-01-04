@@ -20,8 +20,8 @@ const Toolbar: React.FC<IToolbarProps> = ({ navLogo, navLinks }) => {
         </div>
 
         <ul className="nav-list">
-          {navLinks.map((link) => (
-            <NavigateItem link={link} />
+          {navLinks.map((link, index) => (
+            <NavigateItem link={link} key={link.name + index}/>
           ))}
         </ul>
       </nav>
