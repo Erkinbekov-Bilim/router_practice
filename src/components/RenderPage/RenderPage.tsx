@@ -20,12 +20,12 @@ const RenderPage: React.FC<IRenderPageProps> = ({ info }) => {
     }
 
     return (
-      <div>
-        <p>{item.label}</p>
+      <div className='content-info'>
+        <p className='content-info-label'>{item.label}</p>
         {Array.isArray(item.text) ? (
           item.text.map((text) => <p key={text + index}>{text}</p>)
         ) : (
-          <p>{item.text}</p>
+          <p className='content-info-text'>{item.text}</p>
         )}
       </div>
     );
