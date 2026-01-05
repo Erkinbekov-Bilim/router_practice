@@ -20,12 +20,16 @@ const RenderPage: React.FC<IRenderPageProps> = ({ info }) => {
     }
 
     return (
-      <div className='content-info'>
-        <p className='content-info-label'>{item.label}</p>
+      <div className="content-info">
+        <p className="content-info-label">{item.label}</p>
         {Array.isArray(item.text) ? (
-          item.text.map((text) => <p key={text + index}>{text}</p>)
+          item.text.map((text) => (
+            <p className="content-info-text" key={text + index}>
+              {text}
+            </p>
+          ))
         ) : (
-          <p className='content-info-text'>{item.text}</p>
+          <p className="content-info-text">{item.text}</p>
         )}
       </div>
     );
@@ -33,7 +37,7 @@ const RenderPage: React.FC<IRenderPageProps> = ({ info }) => {
 
   return (
     <div>
-      <div className='info-title-block'>
+      <div className="info-title-block">
         <p className="info-title">{info.title}</p>
       </div>
 
