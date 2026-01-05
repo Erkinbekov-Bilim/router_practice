@@ -1,0 +1,26 @@
+.exile-content {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  gap: 30px;
+  background: #ffff;
+  padding: 30px;
+}
+
+.exile-image {
+  background: #787379;
+  padding: 5px;
+}
+
+.exile-image img {
+  width: 330px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.exile-content-info {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 20px;
+  background: #d8d8d8;
+}
