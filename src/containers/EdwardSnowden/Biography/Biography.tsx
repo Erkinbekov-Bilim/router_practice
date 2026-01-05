@@ -11,6 +11,7 @@ const Biography: React.FC<IBiographyProps> = ({ biography }) => {
   return (
     <>
       <section className="biography">
+        <h2 className='page-title'>biography</h2>
         <div className="biography-content">
           <div className="biography-image">
             <img

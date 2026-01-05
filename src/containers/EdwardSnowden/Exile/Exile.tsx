@@ -11,6 +11,7 @@ const Exile: React.FC<IExileProps> = ({ exile }) => {
   return (
     <>
       <section className="exile">
+        <h2 className='page-title'>exile</h2>
         <div className="exile-content">
           <div className="exile-image">
             <img

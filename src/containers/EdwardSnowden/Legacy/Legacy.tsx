@@ -11,6 +11,7 @@ const Legacy: React.FC<ILegacyProps> = ({ legacy }) => {
   return (
     <>
       <section className="legacy">
+        <h2 className='page-title'>legacy</h2>
         <div className="legacy-content">
           <div className="legacy-image">
             <img

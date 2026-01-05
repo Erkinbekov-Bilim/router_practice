@@ -10,6 +10,7 @@ interface IDisclosuresProps {
 const Disclosures: React.FC<IDisclosuresProps> = ({ disclosures }) => {
   return (
     <section className="disclosures">
+      <h2 className='page-title'>disclosures</h2>
       <div className="disclosures-content">
         <div className="disclosures-image">
           <img src="/src/data/edwardSnowden/images/image_programs/prism.png" alt="prsim" />

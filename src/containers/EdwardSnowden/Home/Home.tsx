@@ -10,6 +10,7 @@ const Home: React.FC<IHomeProps> = ({ overview }) => {
   return (
     <>
       <section className="home">
+        <h2 className='page-title'>Home</h2>
         <div className="home-content">
           <div className="home-image">
             <img
