@@ -1,4 +1,7 @@
 .header {
+  width: 100%;
+  position: fixed;
+  top: 0;
   background: #23252c;
   padding: 20px 0;
 }
