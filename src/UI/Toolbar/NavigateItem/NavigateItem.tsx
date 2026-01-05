@@ -19,7 +19,7 @@ const NavigateItem: React.FC<INavigateItemProps> = ({ link }) => {
     whileHover: {
       scale: 1.15,
       color: '#fff',
-      background: '#09011f',
+      background: '#131314ff',
     },
     whileTap: {
       scale: 0.95
