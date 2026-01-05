@@ -18,7 +18,7 @@ const App = () => {
   const getDataEdwardSnowden = useCallback(async (): Promise<void> => {
     try {
       const { data } = await axios.get<IEdwardSnowden>(
-        '/src/data/edwardSnowden.json'
+        '/src/data/edwardSnowden/edwardSnowden.json'
       );
       setSnowdenInfo(data);
     } catch (error) {

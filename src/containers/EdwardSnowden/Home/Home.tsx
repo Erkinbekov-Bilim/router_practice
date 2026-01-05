@@ -1,6 +1,6 @@
 import type { IEdwardSnowdenInfo } from '../../../types';
 import './Home.css';
-import HomeInfo from '../../../components/RenderPage/RenderPage';
+import RenderPage from '../../../components/RenderPage/RenderPage';
 
 interface IHomeProps {
   overview: IEdwardSnowdenInfo[];
@@ -12,11 +12,14 @@ const Home: React.FC<IHomeProps> = ({ overview }) => {
       <section className="home">
         <div className="home-content">
           <div className="home-image">
-            <img src="/src/assets/photos/snowden-home.png" alt="snowden" />
+            <img
+              src="/src/data/edwardSnowden/images/snowden_home_img.png"
+              alt="snowden"
+            />
           </div>
-          <div className='home-content-info'>
+          <div className="home-content-info">
             {overview.map((info) => (
-              <HomeInfo info={info} key={info.id} />
+              <RenderPage info={info} key={info.id} />
             ))}
           </div>
         </div>
