@@ -10,6 +10,9 @@ interface INavigateItemProps {
 
 const NavigateItem: React.FC<INavigateItemProps> = ({ link }) => {
   
+  console.log("rebder");
+  
+
   const animationForNav = {
     initial: {
       scale: 1,
