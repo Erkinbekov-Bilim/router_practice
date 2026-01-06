@@ -14,6 +14,22 @@ body {
   background: #5d5e69;
 }
 
+body::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #302a36;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: rgb(255, 255, 255);
+}
+body::-webkit-scrollbar-thumb:hover {
+  background: rgb(255, 255, 255);
+}
+
 .container {
   width: 1210px;
   padding-left: 15px;
